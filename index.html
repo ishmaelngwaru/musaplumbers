@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Musa Plumbers | Emergency Plumber Gqeberha - 5.0★ Google</title>
+<meta name="description" content="Musa Plumbers - Local emergency plumber from 24 Connacher St, New Brighton, Gqeberha. Tap repair, leak detection, geyser installation, drain & sewer cleaning. Call +27 81 560 4139. Free quotes, call-out confirmed upfront.">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F4EFE6;--ink:#0B1F33;--orange:#FF5A1F;--grid:rgba(11,31,51,0.06)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:'Work Sans',sans-serif;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:24px 24px;pointer-events:none;z-index:-1}
+.mono{font-family:'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:0.08em;font-size:11px}
+.display{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;line-height:0.9}
+.anton{font-family:'Anton',sans-serif;text-transform:uppercase;line-height:0.9}
+a{color:inherit;text-decoration:none}
+.thick{border:3px solid var(--ink)}.shadow{box-shadow:6px 6px 0 var(--ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 22px;border:3px solid var(--ink);font-family:'Barlow Condensed';font-weight:800;text-transform:uppercase;letter-spacing:0.04em;cursor:pointer;transition:transform .1s}
+.btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)!important}
+.btn-orange{background:var(--orange);color:var(--ink);box-shadow:6px 6px 0 var(--ink)}
+.btn-navy{background:var(--ink);color:var(--paper);box-shadow:6px 6px 0 var(--ink)}
+.btn-paper{background:var(--paper);color:var(--ink);box-shadow:6px 6px 0 var(--ink)}
+.pipe-track{position:fixed;left:18px;top:0;bottom:0;width:32px;z-index:50;pointer-events:none;display:none}
+@media(min-width:1024px){.pipe-track{display:block}.has-pipe{padding-left:64px}}
+.pipe-track svg{width:100%;height:100%}
+.droplet{position:fixed;width:14px;height:14px;background:var(--orange);border:3px solid var(--ink);border-radius:50%;z-index:51;left:25px;top:0;pointer-events:none}
+@media(max-width:1023px){#droplet{left:auto;right:14px}}
+.header{position:sticky;top:0;z-index:40;background:var(--paper);border-bottom:3px solid var(--ink)}
+.nav-link{font-family:'IBM Plex Mono';font-size:12px;text-transform:uppercase;padding:4px 8px;border:2px solid transparent;cursor:pointer;background:none}
+.nav-link.active{border-color:var(--ink);background:var(--ink);color:var(--paper)}
+.marquee{overflow:hidden;white-space:nowrap;background:var(--ink);color:var(--paper);border-top:3px solid var(--ink);border-bottom:3px solid var(--ink);padding:10px 0}
+.marquee span{display:inline-block;animation:scroll 30s linear infinite}
+@keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.spec-num{font-family:'IBM Plex Mono';font-size:12px;color:var(--orange);font-weight:700}
+.spec-row{display:flex;gap:16px;padding:18px 14px;border-bottom:2px solid var(--ink);background:var(--paper)}
+.spec-row:hover{background:#fff}
+.gallery-card{position:relative;overflow:hidden;border:3px solid var(--ink);box-shadow:6px 6px 0 var(--ink);background:var(--paper)}
+.gallery-card img{width:100%;height:100%;object-fit:cover;display:block}
+.gallery-label{position:absolute;bottom:0;left:0;right:0;background:var(--ink);color:var(--paper);padding:6px 8px;font-family:'IBM Plex Mono';font-size:10px;display:flex;justify-content:space-between}
+.bottom-bar{position:fixed;bottom:0;left:0;right:0;z-index:60;display:flex;border-top:3px solid var(--ink)}@media(min-width:768px){.bottom-bar{display:none}}
+.page{display:none}.page.active{display:block}
+input,select,textarea{width:100%;padding:12px 14px;border:3px solid var(--ink);background:var(--paper);font-family:'Work Sans';font-size:15px;border-radius:0}
+input:focus,select:focus,textarea:focus{outline:4px solid var(--orange);outline-offset:-2px}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+@media(min-width:1024px){.lg-grid{grid-template-columns:1.1fr 0.9fr}}
+</style>
+</head>
+<body>
+<div class="pipe-track"><svg viewBox="0 0 32 1000" preserveAspectRatio="none"><path id="pipeBg" d="M16 0 V1000" stroke="rgba(11,31,51,0.12)" stroke-width="3" fill="none"/><path id="pipeFg" d="M16 0 V1000" stroke="#0B1F33" stroke-width="3" fill="none" stroke-dasharray="1000" stroke-dashoffset="1000"/></svg></div>
+<div id="droplet" class="droplet"></div>
+
+<header class="header">
+<div style="max-width:1280px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px">
+<a href="#" onclick="go('home')" style="display:flex;gap:12px;align-items:center">
+<div style="width:42px;height:42px;border:3px solid var(--ink);background:var(--ink);display:grid;place-items:center;color:var(--paper);font-family:'Barlow Condensed';font-weight:800">MP</div>
+<div><div style="font-family:'Barlow Condensed';font-weight:800;line-height:0.9;font-size:20px">MUSA<br>PLUMBERS</div><div class="mono" style="font-size:8px;margin-top:2px">24 CONNACHER ST • GQEBERHA</div></div>
+</a>
+<nav id="deskNav" style="display:none;gap:4px">
+<button class="nav-link active" data-p="home" onclick="go('home')">HOME</button>
+<button class="nav-link" data-p="about" onclick="go('about')">ABOUT</button>
+<button class="nav-link" data-p="services" onclick="go('services')">SERVICES</button>
+<button class="nav-link" data-p="contact" onclick="go('contact')">CONTACT</button>
+</nav>
+<div style="display:flex;gap:8px">
+<a href="tel:+27815604139" class="btn btn-orange" style="padding:10px 16px;font-size:14px">CALL NOW</a>
+<button id="mobBtn" class="btn btn-paper" style="padding:10px 14px" onclick="toggleMenu()">☰</button>
+</div>
+</div>
+<div id="mobNav" style="display:none;border-top:3px solid var(--ink);background:var(--paper);padding:18px">
+<button class="display" style="display:block;font-size:40px;margin:8px 0;background:none;border:0;cursor:pointer" onclick="go('home');toggleMenu()">HOME</button>
+<button class="display" style="display:block;font-size:40px;margin:8px 0;background:none;border:0;cursor:pointer" onclick="go('about');toggleMenu()">ABOUT</button>
+<button class="display" style="display:block;font-size:40px;margin:8px 0;background:none;border:0;cursor:pointer" onclick="go('services');toggleMenu()">SERVICES</button>
+<button class="display" style="display:block;font-size:40px;margin:8px 0;background:none;border:0;cursor:pointer" onclick="go('contact');toggleMenu()">CONTACT</button>
+</div>
+</header>
+
+<div class="has-pipe">
+<!-- HOME -->
+<div id="page-home" class="page active">
+<section style="max-width:1280px;margin:0 auto;padding:32px 16px 0;display:grid;gap:24px" class="lg-grid">
+<div>
+<div class="mono" style="display:inline-flex;align-items:center;gap:8px;border:2px solid var(--ink);padding:4px 10px"><span style="width:8px;height:8px;background:var(--orange);border-radius:50%;display:inline-block;animation:pulse 1.2s infinite"></span> EMERGENCY PLUMBING • GQEBERHA</div>
+<h1 class="anton" style="font-size:clamp(36px,7vw,84px);margin:16px 0 12px">LEAK?<br>BLOCKED<br>DRAIN?<br><span style="color:var(--orange);-webkit-text-stroke:2px var(--ink)">WE'RE ALREADY<br>ON OUR WAY.</span></h1>
+<p style="max-width:520px;font-size:18px;line-height:1.4;font-weight:500">Local plumbers from New Brighton. We answer the phone, quote upfront, fix it proper. No call centre.</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:18px">
+<a href="tel:+27815604139" class="btn btn-orange">CALL NOW +27 81 560 4139</a>
+<a href="https://wa.me/27815604139?text=Hi%20Musa%20Plumbers%2C%20I%20need%20help%20with%20my%20plumbing.%20My%20address%20is%3A" target="_blank" class="btn btn-paper">WHATSAPP US</a>
+</div>
+<div class="mono" style="margin-top:16px;border-left:4px solid var(--orange);padding-left:10px">5.0★ on Google (3 reviews) • Call-out fees confirmed upfront • Gqeberha local</div>
+</div>
+<div style="display:grid;gap:16px">
+<div class="gallery-card" style="height:380px"><img src="assets/images/geyser-tank.jpg" alt="Geyser installation job Gqeberha" loading="lazy"><div class="gallery-label"><span>REAL JOB: GEYSER INSTALL • 2022</span><span>BRICK WALL</span></div></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+<div class="thick shadow" style="background:var(--ink);color:var(--paper);padding:14px"><div class="mono" style="color:var(--orange)">Trust spec</div><div style="font-family:'Barlow Condensed';font-weight:800;font-size:22px;margin-top:6px">FREE QUOTES. NO SURPRISES.</div></div>
+<div class="thick shadow" style="background:var(--paper);padding:14px"><div class="mono">Open status</div><div id="openStatus" style="font-weight:800;margin-top:6px">CHECKING...</div><div class="mono" style="margin-top:6px;font-size:9px">Mon-Fri 7:00-17:00<br>Emergency WhatsApp 24h</div></div>
+</div>
+</div>
+</section>
+
+<div class="marquee"><span> EMERGENCY PLUMBING • 24HR WHATSAPP RESPONSE • NEW BRIGHTON • GQEBERHA • FREE QUOTES • CALL +27 81 560 4139 • TAP REPAIR • LEAK DETECTION • DRAIN CLEANING • GEYSER INSTALL • &nbsp; EMERGENCY PLUMBING • 24HR WHATSAPP RESPONSE • NEW BRIGHTON • GQEBERHA • FREE QUOTES • CALL +27 81 560 4139 • &nbsp;</span></div>
+
+<section style="max-width:1280px;margin:0 auto;padding:40px 16px">
+<div style="display:flex;align-items:end;gap:12px;margin-bottom:16px"><div class="mono" style="font-size:28px;font-weight:800">01 / WHAT WE FIX</div><div style="flex:1;height:2px;background:var(--ink);margin-bottom:8px"></div><div class="mono">6 FEATURED</div></div>
+<div id="featuredServices"></div>
+<div style="margin-top:12px"><button class="btn btn-paper" onclick="go('services')">VIEW ALL 14 SERVICES →</button></div>
+</section>
+
+<section style="max-width:1280px;margin:0 auto;padding:24px 16px">
+<div class="thick shadow" style="background:var(--paper);padding:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
+<div><div class="mono" style="color:var(--orange)">Step 01</div><div class="display" style="font-size:28px">CALL</div><div style="font-size:14px;margin-top:4px">You call +27 81 560 4139. Real person answers.</div></div>
+<div><div class="mono" style="color:var(--orange)">Step 02</div><div class="display" style="font-size:28px">WE DIAGNOSE & QUOTE</div><div style="font-size:14px;margin-top:4px">We come, find fault, quote upfront. No work without ok.</div></div>
+<div><div class="mono" style="color:var(--orange)">Step 03</div><div class="display" style="font-size:28px">FIXED</div><div style="font-size:14px;margin-top:4px">Fix proper, test, clean up.</div></div>
+</div>
+</section>
+
+<section style="max-width:1280px;margin:0 auto;padding:24px 16px">
+<div class="thick shadow" style="background:var(--ink);color:var(--paper);display:grid;grid-template-columns:repeat(3,1fr);gap:0">
+<div style="padding:16px;border-right:2px solid rgba(244,239,230,0.2)"><div class="mono" style="color:var(--orange)">Rating</div><div style="font-family:'Barlow Condensed';font-size:24px;font-weight:800">5.0★ GOOGLE (3 REVIEWS)</div></div>
+<div style="padding:16px;border-right:2px solid rgba(244,239,230,0.2)"><div class="mono" style="color:var(--orange)">Location</div><div style="font-family:'Barlow Condensed';font-size:24px;font-weight:800">LOCAL TO GQEBERHA</div></div>
+<div style="padding:16px"><div class="mono" style="color:var(--orange)">Pricing</div><div style="font-family:'Barlow Condensed';font-size:24px;font-weight:800">QUOTE UPFRONT</div></div>
+</div>
+</section>
+
+<section style="max-width:1280px;margin:0 auto;padding:32px 16px">
+<div style="display:flex;align-items:end;gap:12px;margin-bottom:16px"><div class="mono" style="font-size:28px;font-weight:800">02 / RECENT WORK</div><div style="flex:1;height:2px;background:var(--ink);margin-bottom:8px"></div><div class="mono">REAL JOBS</div></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<div class="gallery-card" style="height:260px"><img src="assets/images/shower-modern.jpg" alt="Modern walk-in shower" loading="lazy"><div class="gallery-label"><span>SHOWER INSTALL • GREY TILE</span><span>2022</span></div></div>
+<div class="gallery-card" style="height:260px"><img src="assets/images/shower-glass.jpg" alt="Shower glass door" loading="lazy"><div class="gallery-label"><span>SHOWER • GLASS ENCLOSURE</span><span>2019</span></div></div>
+<div class="gallery-card" style="height:260px"><img src="assets/images/bathtub-corner.jpg" alt="Bathtub install" loading="lazy"><div class="gallery-label"><span>BATHTUB INSTALL • TILING</span><span>2019</span></div></div>
+<div class="gallery-card" style="height:260px"><img src="assets/images/under-sink.jpg" alt="Under sink plumbing" loading="lazy"><div class="gallery-label"><span>PIPE REPAIR • UNDER-SINK</span><span>2022</span></div></div>
+<div class="gallery-card" style="height:260px"><img src="assets/images/musa-yellow.jpg" alt="Musa yellow overalls on site" loading="lazy"><div class="gallery-label"><span>ON SITE • TILING + PLUMBING</span><span>GQEBERHA</span></div></div>
+<div class="gallery-card" style="height:260px"><img src="assets/images/shower-mosaic.jpg" alt="Bathroom finish mosaic" loading="lazy"><div class="gallery-label"><span>BATHROOM FINISH</span><span>2022</span></div></div>
+</div>
+</section>
+
+<section style="max-width:1280px;margin:0 auto;padding:32px 16px">
+<div style="display:flex;align-items:end;gap:12px;margin-bottom:16px"><div class="mono" style="font-size:28px;font-weight:800">03 / WHAT NEIGHBOURS SAY</div><div style="flex:1;height:2px;background:var(--ink);margin-bottom:8px"></div><div class="mono">5.0★ (3)</div></div>
+<div style="display:grid;gap:16px">
+<div class="thick shadow" style="background:var(--paper);padding:16px"><div style="display:flex;justify-content:space-between"><div class="mono" style="color:var(--orange)">5.0★ GOOGLE</div><div class="mono" style="font-size:9px">1 review • Edited 4 years ago</div></div><div style="font-style:italic;margin-top:8px">"Wonderful customer service, prompt, reasonable prices, could not ask for more. And I truly inlove with my tile's and also Musa he's a professional in plumbing Highly recommend him."</div><a href="https://www.google.com/maps/contrib/102024837466555725737/reviews?hl=en-GB" target="_blank" class="display" style="margin-top:10px;display:block;font-size:18px;text-decoration:underline">NOSIKHUMBUZO LUVUNO</a></div>
+<div class="thick shadow" style="background:var(--paper);padding:16px"><div style="display:flex;justify-content:space-between"><div class="mono" style="color:var(--orange)">5.0★ GOOGLE</div><div class="mono" style="font-size:9px">1 review • 4 years ago</div></div><div style="font-style:italic;margin-top:8px">"Trust Worthy and Kind."</div><a href="https://www.google.com/maps/contrib/116664187386629397587/reviews?hl=en-GB" target="_blank" class="display" style="margin-top:10px;display:block;font-size:18px;text-decoration:underline">Mmabjale Letshweni</a></div>
+<div class="thick shadow" style="background:var(--paper);padding:16px"><div style="display:flex;justify-content:space-between"><div class="mono" style="color:var(--orange)">5.0★ GOOGLE</div><div class="mono" style="font-size:9px">Local Guide · 78 reviews · 2 years ago</div></div><div style="font-style:italic;margin-top:8px">"They are the best"</div><a href="https://www.google.com/maps/contrib/107089971787023782148/reviews?hl=en-GB" target="_blank" class="display" style="margin-top:10px;display:block;font-size:18px;text-decoration:underline">Distone Mpondah</a></div>
+</div>
+<div style="margin-top:16px"><a href="https://www.google.com/search?q=Musa+Plumbers+Gqeberha" target="_blank" class="btn btn-orange">LEAVE US A GOOGLE REVIEW →</a></div>
+</section>
+
+<section style="max-width:1280px;margin:0 auto;padding:32px 16px 80px">
+<div style="display:grid;grid-template-columns:1.2fr 0.8fr;gap:0;border:3px solid var(--ink)" class="shadow">
+<div style="background:var(--ink);color:var(--paper);padding:28px"><div class="mono" style="color:var(--orange)">Final call</div><h2 class="display" style="font-size:clamp(28px,5vw,52px);margin:12px 0">NEED A PLUMBER TODAY?</h2><p style="opacity:0.9">We're in New Brighton. Most jobs in Gqeberha same day. Call or WhatsApp now.</p><div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:16px"><a href="tel:+27815604139" class="btn btn-orange">CALL +27 81 560 4139</a><a href="https://wa.me/27815604139?text=Hi%20Musa%20Plumbers%2C%20I%20need%20help" target="_blank" class="btn btn-paper">WHATSAPP</a></div></div>
+<div style="background:var(--paper);padding:0;position:relative;min-height:300px"><img src="assets/images/bathroom-tub.jpg" alt="Bathroom freestanding tub" style="width:100%;height:100%;object-fit:cover"><div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(11,31,51,0.4),transparent)"></div></div>
+</div>
+</section>
+</div>
+
+<!-- ABOUT -->
+<div id="page-about" class="page">
+<section style="max-width:1024px;margin:0 auto;padding:40px 16px">
+<div class="mono" style="font-size:24px;font-weight:800">02 / WHO WE ARE</div>
+<h1 class="display" style="font-size:clamp(36px,6vw,72px);margin:12px 0">BUILT IN NEW BRIGHTON.<br>FOR GQEBERHA.</h1>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px">
+<div><p style="font-size:18px;line-height:1.5">We are local plumbers. No call centre. When you call, you talk to the person who does the work. Musa is on the tools every day — from geysers to showers to blocked drains.</p><p>We fix it right, clean up after ourselves, and charge what we quoted.</p></div>
+<div class="thick shadow" style="background:var(--ink);color:var(--paper);padding:20px"><div class="mono" style="color:var(--orange)">Mission</div><div style="font-family:'Barlow Condensed';font-size:26px;font-weight:800;margin-top:8px">SHOW UP. QUOTE UPFRONT. FIX IT PROPER. CLEAN UP.</div></div>
+</div>
+<div style="margin-top:32px;display:grid;grid-template-columns:repeat(4,1fr);gap:12px">
+<div class="thick" style="padding:14px"><div class="mono" style="color:var(--orange)">01</div><div class="display">SHOW UP</div><div style="font-size:13px">We answer. We come.</div></div>
+<div class="thick" style="padding:14px"><div class="mono" style="color:var(--orange)">02</div><div class="display">QUOTE UPFRONT</div><div style="font-size:13px">Free quotes. Call-out confirmed.</div></div>
+<div class="thick" style="padding:14px"><div class="mono" style="color:var(--orange)">03</div><div class="display">FIX IT PROPER</div><div style="font-size:13px">Tested. No shortcuts.</div></div>
+<div class="thick" style="padding:14px"><div class="mono" style="color:var(--orange)">04</div><div class="display">CLEAN UP</div><div style="font-size:13px">Leave it better.</div></div>
+</div>
+<div style="margin-top:32px;display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<div class="gallery-card"><img src="assets/images/musa-geyser.jpg" alt="Musa with geyser" style="height:380px;object-fit:cover"><div class="gallery-label"><span>MUSA • LEAD PLUMBER</span><span>ON THE TOOLS</span></div></div>
+<div class="gallery-card"><img src="assets/images/musa-yellow.jpg" alt="Musa yellow overalls" style="height:380px;object-fit:cover"><div class="gallery-label"><span>ON SITE • TILING + PLUMBING</span><span>NEW BRIGHTON</span></div></div>
+</div>
+<div style="margin-top:24px" class="thick shadow"><img src="assets/images/under-sink.jpg" alt="Detail waste copper" style="width:100%;height:260px;object-fit:cover"><div style="padding:12px;display:flex;justify-content:space-between" class="mono"><span>DETAIL: WASTE + COPPER LINES — SEALED AND TESTED</span><span>2022</span></div></div>
+</section>
+</div>
+
+<!-- SERVICES -->
+<div id="page-services" class="page">
+<section style="max-width:1100px;margin:0 auto;padding:32px 16px">
+<div class="mono" style="font-size:24px;font-weight:800">03 / SERVICES SPEC SHEET</div>
+<h1 class="display" style="font-size:clamp(32px,5vw,56px);margin:12px 0">ALL 14 SERVICES. ONE PRICE RULE: QUOTE UPFRONT.</h1>
+<div class="thick" style="padding:12px;background:#fff;margin-top:12px"><span class="mono">PRICING:</span> Free quotes. Call-out fees confirmed upfront. Parts + labour quoted before work. No work starts without your ok.</div>
+<div id="servicesList" style="margin-top:20px"></div>
+</section>
+</div>
+
+<!-- CONTACT -->
+<div id="page-contact" class="page">
+<section style="max-width:1100px;margin:0 auto;padding:32px 16px;display:grid;grid-template-columns:1fr 1fr;gap:24px">
+<div>
+<div class="mono" style="font-size:24px;font-weight:800">04 / GET HOLD OF US</div>
+<h1 class="display" style="font-size:clamp(32px,5vw,56px);margin:12px 0">CALL, WHATSAPP, OR SEND A NOTE</h1>
+<div class="thick" style="padding:16px;background:var(--paper);margin-top:16px">
+<div class="mono">Address</div><div style="font-weight:700">24 Connacher St, New Brighton 1, Gqeberha, 6200, South Africa</div><a href="https://www.google.com/maps/dir/?api=1&destination=24+Connacher+St,+New+Brighton+1,+Gqeberha,+6200,+South+Africa" target="_blank" class="btn btn-paper" style="margin-top:8px;padding:8px 12px;font-size:12px">GET DIRECTIONS →</a>
+<div style="margin-top:16px" class="mono">Phone</div><a href="tel:+27815604139" style="font-family:'Barlow Condensed';font-size:38px;font-weight:800;display:block">+27 81 560 4139</a>
+<div class="mono" style="margin-top:12px">WhatsApp</div><a href="https://wa.me/27815604139?text=Hi%20Musa%20Plumbers%2C%20I%20need%20help" target="_blank" style="font-weight:700;text-decoration:underline">wa.me/27815604139 — Tap to chat</a>
+<div class="mono" style="margin-top:12px">Email</div><div>info@yourdomain.co.za</div>
+<div class="mono" style="margin-top:12px">Hours</div><div>Mon-Fri 7:00-17:00 — Sat-Sun Emergency WhatsApp</div>
+<div id="openStatus2" style="margin-top:12px;padding:8px 10px;border:3px solid var(--ink);font-weight:800" class="mono"></div>
+</div>
+<div style="margin-top:16px" class="gallery-card" style="height:320px"><iframe src="https://www.google.com/maps?q=24+Connacher+St,+New+Brighton+1,+Gqeberha,+6200,+South+Africa&z=15&output=embed" style="width:100%;height:320px;border:0" loading="lazy"></iframe></div>
+</div>
+<div>
+<div class="thick shadow" style="background:var(--paper);padding:18px">
+<div class="mono">Contact form — spec sheet</div>
+<form id="contactForm" style="display:grid;gap:12px;margin-top:12px">
+<label class="mono">Name* <input id="fName" required placeholder="Your name"></label>
+<label class="mono">Phone* <input id="fPhone" required placeholder="+27..."></label>
+<label class="mono">Service <select id="fService"><option value="">Select service</option><option>Tap installation</option><option>Tap repair</option><option>Leak detection</option><option>Pipe repair</option><option>Leak repair</option><option>Shower installation</option><option>Shower repair</option><option>Toilet installation</option><option>Toilet repair</option><option>Water heater (geyser) installation</option><option>Drain cleaning</option><option>Sewer cleaning</option><option>Sewer repair</option><option>Water tank installation</option><option>Emergency</option><option>Other</option></select></label>
+<label class="mono">Message <textarea id="fMsg" rows="4" placeholder="Describe problem, address..."></textarea></label>
+<label class="mono" style="display:flex;align-items:center;gap:10px;border:3px solid var(--ink);padding:10px"><input type="checkbox" id="fEmer" style="width:auto"> IS THIS AN EMERGENCY? YES</label>
+<button type="submit" class="btn btn-orange">SEND MESSAGE</button>
+<div id="formErr" style="color:#b00020;display:none" class="mono"></div>
+<div id="formOk" style="display:none;border:3px solid var(--ink);background:#fff;padding:12px" class="mono">Message received. We'll call back within 30 mins during work hours. If emergency, also call +27 81 560 4139.</div>
+</form>
+</div>
+</div>
+</section>
+</div>
+
+<!-- LEGAL -->
+<div id="page-privacy" class="page"><section style="max-width:800px;margin:0 auto;padding:40px 16px"><div class="mono">Legal / POPIA</div><h1 class="display" style="font-size:40px">Privacy Policy</h1><p class="mono" style="margin-top:8px">Last updated: 2025-01-01 • Editable in config.js</p><div style="margin-top:20px;line-height:1.6"><p>We comply with POPIA. We collect only contact form data (name, phone, service, message) to respond to your request. No selling. Retention 12 months. Rights to access, correct, delete. Contact: info@yourdomain.co.za. Essential cookies only unless you accept analytics.</p></div><button class="btn btn-paper" style="margin-top:20px" onclick="go('home')">← BACK</button></section></div>
+<div id="page-terms" class="page"><section style="max-width:800px;margin:0 auto;padding:40px 16px"><div class="mono">Legal</div><h1 class="display" style="font-size:40px">Terms</h1><p style="line-height:1.6;margin-top:20px">Quotes free. Call-out confirmed upfront. Work only starts after approval. Payment on completion. Warranties 3 months workmanship, parts per manufacturer.</p><button class="btn btn-paper" style="margin-top:20px" onclick="go('home')">← BACK</button></section></div>
+<div id="page-cookies" class="page"><section style="max-width:800px;margin:0 auto;padding:40px 16px"><div class="mono">Legal</div><h1 class="display" style="font-size:40px">Cookie Policy</h1><p style="line-height:1.6;margin-top:20px">Essential cookies for function. No tracking by default. Accept analytics for anonymized visits. Manage via banner. POPIA compliant.</p><button class="btn btn-paper" style="margin-top:20px" onclick="go('home')">← BACK</button></section></div>
+
+<footer style="background:var(--ink);color:var(--paper);border-top:6px solid var(--orange);margin-top:40px">
+<div style="max-width:1280px;margin:0 auto;padding:24px 16px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+<div><div class="mono" style="color:var(--orange)">Contact</div><div style="margin-top:8px">24 Connacher St, New Brighton 1, Gqeberha</div><a href="tel:+27815604139" style="display:block;margin-top:6px;text-decoration:underline">+27 81 560 4139</a><a href="https://wa.me/27815604139" target="_blank" style="display:block;text-decoration:underline">WhatsApp</a><div>info@yourdomain.co.za</div></div>
+<div><div class="mono" style="color:var(--orange)">Quick links</div><div style="display:grid;gap:6px;margin-top:8px"><button onclick="go('home')" style="text-align:left;background:none;border:0;color:inherit;cursor:pointer">Home</button><button onclick="go('about')" style="text-align:left;background:none;border:0;color:inherit;cursor:pointer">About</button><button onclick="go('services')" style="text-align:left;background:none;border:0;color:inherit;cursor:pointer">Services</button><button onclick="go('contact')" style="text-align:left;background:none;border:0;color:inherit;cursor:pointer">Contact</button></div></div>
+<div><div class="mono" style="color:var(--orange)">Legal</div><div style="display:grid;gap:6px;margin-top:8px"><button onclick="go('privacy')" style="text-align:left;background:none;border:0;color:inherit;cursor:pointer">Privacy Policy</button><button onclick="go('terms')" style="text-align:left;background:none;border:0;color:inherit;cursor:pointer">Terms</button><button onclick="go('cookies')" style="text-align:left;background:none;border:0;color:inherit;cursor:pointer">Cookie Policy</button></div></div>
+<div><div class="mono" style="color:var(--orange)">Hours & Area</div><div style="margin-top:8px">Mon-Fri 7:00-17:00<br>Sat-Sun Emergency WhatsApp</div><div style="margin-top:8px;font-size:12px;opacity:0.8">Serving: New Brighton, Motherwell, Zwide, KwaZakhele, Central, Summerstrand, Walmer, Uitenhage and all Gqeberha</div></div>
+</div>
+<div style="border-top:1px solid rgba(244,239,230,0.2);padding:12px 16px;display:flex;justify-content:space-between" class="mono"><span>EST • GQEBERHA • 6200 • LICENSED • 5.0★</span><span>© Musa Plumbers</span></div>
+</footer>
+</div>
+
+<div class="bottom-bar"><a href="tel:+27815604139" style="flex:1;background:var(--ink);color:var(--paper);padding:14px;text-align:center;font-family:'Barlow Condensed';font-weight:800">CALL</a><a href="https://wa.me/27815604139?text=Hi%20Musa%20Plumbers" target="_blank" style="flex:1;background:var(--orange);color:var(--ink);padding:14px;text-align:center;font-family:'Barlow Condensed';font-weight:800;border-left:3px solid var(--ink)">WHATSAPP</a></div>
+
+<div id="cookieBanner" style="position:fixed;bottom:16px;left:16px;right:16px;max-width:480px;z-index:70;background:var(--paper);border:3px solid var(--ink);box-shadow:6px 6px 0 var(--ink);padding:14px;display:none"><div class="mono">COOKIE SPEC • POPIA</div><div style="font-size:13px;margin-top:6px">We use essential cookies only. No tracking unless you accept.</div><div style="display:flex;gap:8px;margin-top:10px"><button class="btn btn-orange" style="padding:8px 12px;font-size:12px" onclick="cookieChoice('accept')">ACCEPT</button><button class="btn btn-paper" style="padding:8px 12px;font-size:12px" onclick="cookieChoice('decline')">DECLINE</button><button class="btn btn-paper" style="padding:8px 12px;font-size:12px" onclick="go('cookies')">MANAGE</button></div></div>
+
+<script>
+// CONFIG - edit here
+const SERVICES = [
+{name:"Tap installation",group:"Installations",benefit:"New taps fitted right. No drips, no leaks."},
+{name:"Tap repair",group:"Repairs",benefit:"Stop that constant drip. Save water."},
+{name:"Leak detection",group:"Repairs",benefit:"Find hidden leaks before they wreck walls."},
+{name:"Pipe repair",group:"Repairs",benefit:"Burst or cracked? Fix fast, proper.",img:"assets/images/under-sink.jpg"},
+{name:"Leak repair",group:"Repairs",benefit:"From pinhole to gusher — sealed and tested."},
+{name:"Shower installation",group:"Installations",benefit:"Strong pressure, clean finish.",img:"assets/images/shower-modern.jpg"},
+{name:"Shower repair",group:"Repairs",benefit:"Low pressure, leaks — sorted.",img:"assets/images/shower-glass.jpg"},
+{name:"Toilet installation",group:"Installations",benefit:"Solid install, no wobble, no waste."},
+{name:"Toilet repair",group:"Repairs",benefit:"Running, blocked, or leaking cistern — fixed."},
+{name:"Water heater (geyser) installation",group:"Water Systems",benefit:"Hot water done safely, SANS compliant.",img:"assets/images/geyser-tank.jpg"},
+{name:"Drain cleaning",group:"Drains and Sewers",benefit:"Blocked sink or shower? Clear same day."},
+{name:"Sewer cleaning",group:"Drains and Sewers",benefit:"Main line blocked? Proper gear."},
+{name:"Sewer repair",group:"Drains and Sewers",benefit:"Collapsed or root-damaged lines repaired."},
+{name:"Water tank installation",group:"Water Systems",benefit:"JoJo / municipal backup — connected right."}
+];
+function renderFeatured(){
+const cont=document.getElementById('featuredServices');
+cont.innerHTML=SERVICES.slice(0,6).map((s,i)=>`<div class="spec-row thick" style="margin-bottom:10px"><div class="spec-num">0${i+1}</div><div style="flex:1"><div class="display" style="font-size:22px">${s.name}</div><div style="font-size:13px">${s.benefit}</div></div><div class="mono" style="align-self:center;color:var(--orange)">→</div></div>`).join('');
+}
+function renderServices(){
+const cont=document.getElementById('servicesList'); const groups=["Repairs","Installations","Drains and Sewers","Water Systems"]; let html=""; let num=1;
+groups.forEach(g=>{
+html+=`<div style="margin-top:24px"><div style="display:flex;align-items:center;gap:12px"><div class="mono" style="font-size:18px;font-weight:800">${g.toUpperCase()}</div><div style="flex:1;height:2px;background:var(--ink)"></div><div class="mono">${SERVICES.filter(s=>s.group===g).length} items</div></div>`;
+SERVICES.filter(s=>s.group===g).forEach(s=>{
+html+=`<div class="spec-row thick" style="margin-top:10px;align-items:center;flex-wrap:wrap"><div class="spec-num">${String(num).padStart(2,'0')}</div><div style="flex:1;min-width:200px"><div class="display" style="font-size:20px">${s.name}</div><div style="font-size:13px">${s.benefit}</div><div class="mono" style="margin-top:4px;color:var(--orange)">PRICE: On quote - edit in config.js</div></div>${s.img?`<img src="${s.img}" style="width:80px;height:80px;object-fit:cover;border:2px solid var(--ink)">`:``}<button class="btn btn-paper" style="padding:8px 12px;font-size:12px" onclick="document.getElementById('fService').value='${s.name}';go('contact')">GET A QUOTE</button></div>`; num++;
+}); html+=`</div>`;}); cont.innerHTML=html;
+}
+function go(p){
+document.querySelectorAll('.page').forEach(el=>el.classList.remove('active'));
+const t=document.getElementById('page-'+p); if(t) t.classList.add('active'); else document.getElementById('page-home').classList.add('active');
+document.querySelectorAll('.nav-link').forEach(b=>b.classList.toggle('active',b.dataset.p===p));
+window.scrollTo(0,0); history.replaceState(null,'','#'+p);
+}
+function toggleMenu(){const el=document.getElementById('mobNav'); el.style.display=el.style.display==='none'?'block':'none';}
+function checkOpen(){
+const now=new Date(); const h=now.getHours(); const d=now.getDay(); const isOpen=d>=1&&d<=5&&h>=7&&h<17;
+const txt=isOpen?`OPEN NOW • Closes 17:00 • ${h}:00 SAST`:`CLOSED • Opens 7am Mon • Emergency WhatsApp 24h`;
+const a=document.getElementById('openStatus'); if(a) a.textContent=txt;
+const b=document.getElementById('openStatus2'); if(b){ b.textContent=txt; b.style.background=isOpen?'#e6ffe6':'#ffe9e0'; }
+}
+document.getElementById('contactForm').addEventListener('submit',e=>{
+e.preventDefault();
+const n=document.getElementById('fName').value.trim(); const ph=document.getElementById('fPhone').value.trim();
+if(!n||!ph){document.getElementById('formErr').style.display='block';document.getElementById('formErr').textContent='Name and phone required.';return;}
+document.getElementById('formErr').style.display='none'; document.getElementById('formOk').style.display='block';
+console.log('Form', {name:n, phone:ph, service:document.getElementById('fService').value});
+setTimeout(()=>document.getElementById('contactForm').reset(),1500);
+});
+function cookieChoice(v){localStorage.setItem('musa_cookies',v);document.getElementById('cookieBanner').style.display='none';}
+window.addEventListener('scroll',()=>{
+const fg=document.getElementById('pipeFg'); const drop=document.getElementById('droplet');
+const top=window.scrollY; const docH=document.documentElement.scrollHeight-window.innerHeight; const prog=docH>0?Math.min(1,top/docH):0;
+if(fg){ const len=1000; fg.style.strokeDashoffset=len-prog*len; }
+if(drop){ drop.style.top=(prog*(window.innerHeight-30))+'px'; }
+});
+window.addEventListener('load',()=>{
+renderFeatured();renderServices();checkOpen();
+if(!localStorage.getItem('musa_cookies')) document.getElementById('cookieBanner').style.display='block';
+if(window.innerWidth>=1024) document.getElementById('deskNav').style.display='flex';
+const hash=location.hash.replace('#',''); if(hash) go(hash);
+});
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Plumber","name":"Musa Plumbers","address":{"@type":"PostalAddress","streetAddress":"24 Connacher St, New Brighton 1","addressLocality":"Gqeberha","postalCode":"6200","addressCountry":"ZA"},"telephone":"+27815604139","aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"3"},"openingHours":"Mo-Fr 07:00-17:00"}
+</script>
+</body>
+</html>
